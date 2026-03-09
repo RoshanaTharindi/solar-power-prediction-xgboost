@@ -1,0 +1,4 @@
+{
+  "shap_available": true,
+  "top_feature_from_shap": "hour_cos"
+}

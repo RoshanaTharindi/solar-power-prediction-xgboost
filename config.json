@@ -1,0 +1,20 @@
+{
+  "target": "ALLSKY_SFC_SW_DWN",
+  "splits": {
+    "train_end": "2022-12-31 23:00:00",
+    "val_end": "2023-06-30 23:00:00",
+    "test_end": "2023-12-31 23:00:00"
+  },
+  "xgb_params": {
+    "n_estimators": 800,
+    "learning_rate": 0.05,
+    "max_depth": 6,
+    "min_child_weight": 3,
+    "subsample": 0.8,
+    "colsample_bytree": 0.8,
+    "reg_lambda": 1.0,
+    "objective": "reg:squarederror",
+    "tree_method": "hist",
+    "random_state": 42
+  }
+}
